@@ -1,0 +1,14 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "coderscafe:temt6000",
+  "visibility": "public",
+  "url": "https://github.com/CodersCafeTech/TEMT6000-Viam-Module",
+  "description": "A Module For Connecting TEMT6000 Light Sensor With Raspberry Pi Using ADS1115 ADC",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "coderscafe:sensor:temt6000"
+    }
+  ],
+  "entrypoint": "run.sh"
+}
